@@ -1,0 +1,54 @@
+input, select {
+    border: none !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid #d7d7d7 !important;
+    border-radius: 0 !important;
+    margin-top: 5px !important;
+
+    margin-bottom: 20px !important;
+}
+#alert{
+    display: none;
+}
+div#alert {
+    background: rgb(255, 214, 88);
+    padding: 10px;
+    font-weight: bold;
+}
+
+div#alert.success {
+    background: #030244;
+    color: #fff;
+}
+
+div#alert.error {
+    background: #d6d6d6;
+    color: #a90000;
+}
+div#page-wrapper {
+    background: #dcefff;
+    height: 100vh;
+    /* text-align: center; */
+    width: 100%;
+}
+
+form#frmContact {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px 0px;
+    overflow: hidden;
+}
+
+form#frmContact input, form#frmContact textarea {
+    width: 100%;
+    min-height: 50px;
+    padding: 5px 0;
+    /* border-radius: 50%; */
+    background: #fbfbfb;
+    border: 1px solid #ddd;
+    padding: 5px 20px;
+}
+
+form#frmContact .btn {
+    width: 100%;
+}
